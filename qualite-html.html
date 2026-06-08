@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Qualité du code HTML — Documentation PFE Scrimly</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <a class="skip-link" href="#contenu-principal">Passer au contenu</a>
+
+    <header class="site-header">
+        <div class="site-header__inner">
+            <p class="site-header__title">Scrimly — Documentation PFE</p>
+            <nav class="site-nav" aria-label="Navigation principale">
+                <ul class="site-nav__list" role="list">
+                    <li><a class="site-nav__link" href="index.html">Accueil</a></li>
+                    <li><a class="site-nav__link site-nav__link--active" href="qualite-html.html" aria-current="page">Qualité HTML</a></li>
+                    <li><a class="site-nav__link" href="audit-performance.html">Audit performance</a></li>
+                    <li><a class="site-nav__link" href="performances-serveur.html">Performances serveur</a></li>
+                    <li><a class="site-nav__link" href="tests-automatises.html">Tests automatisés</a></li>
+                    <li><a class="site-nav__link" href="audit-opquast.html">Audit Opquast</a></li>
+                    <li><a class="site-nav__link" href="tests-utilisateurs.html">Tests utilisateurs</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main id="contenu-principal" class="site-main">
+        <h1 class="page-title">Qualité du code HTML</h1>
+        <p class="page-intro">
+            Structure de titres, validation HTML, sémantique, microdata et gestion des images
+            de l'application Scrimly.
+        </p>
+
+        <section class="section" aria-labelledby="headings-map">
+            <h2 id="headings-map" class="section__title">Structure de titres (headings map)</h2>
+            <ul class="content-list" role="list">
+                <li>
+                    <h3 class="content-list__heading">Page d'accueil</h3>
+                    <figure class="figure">
+                        <img src="Githubpages/HeadingsMap/LandingPage.png"
+                             alt="Headings map — page d'accueil"
+                             loading="lazy">
+                    </figure>
+                </li>
+                <li>
+                    <h3 class="content-list__heading">Calendrier</h3>
+                    <figure class="figure">
+                        <img src="Githubpages/HeadingsMap/calendar.png"
+                             alt="Headings map — calendrier"
+                             loading="lazy">
+                    </figure>
+                </li>
+                <li>
+                    <h3 class="content-list__heading">Chat</h3>
+                    <figure class="figure">
+                        <img src="Githubpages/HeadingsMap/chat.png"
+                             alt="Headings map — chat"
+                             loading="lazy">
+                    </figure>
+                </li>
+                <li>
+                    <h3 class="content-list__heading">Tableau de bord</h3>
+                    <figure class="figure">
+                        <img src="Githubpages/HeadingsMap/dashboard.png"
+                             alt="Headings map — tableau de bord"
+                             loading="lazy">
+                    </figure>
+                </li>
+                <li>
+                    <h3 class="content-list__heading">Connexion</h3>
+                    <figure class="figure">
+                        <img src="Githubpages/HeadingsMap/login.png"
+                             alt="Headings map — connexion"
+                             loading="lazy">
+                    </figure>
+                </li>
+                <li>
+                    <h3 class="content-list__heading">Inscription</h3>
+                    <figure class="figure">
+                        <img src="Githubpages/HeadingsMap/register.png"
+                             alt="Headings map — inscription"
+                             loading="lazy">
+                    </figure>
+                </li>
+                <li>
+                    <h3 class="content-list__heading">Roster — index</h3>
+                    <figure class="figure">
+                        <img src="Githubpages/HeadingsMap/roster-index.png"
+                             alt="Headings map — roster index"
+                             loading="lazy">
+                    </figure>
+                </li>
+                <li>
+                    <h3 class="content-list__heading">Scrim — index</h3>
+                    <figure class="figure">
+                        <img src="Githubpages/HeadingsMap/scrim-index.png"
+                             alt="Headings map — scrim index"
+                             loading="lazy">
+                    </figure>
+                </li>
+                <li>
+                    <h3 class="content-list__heading">Tâches coach — index</h3>
+                    <figure class="figure">
+                        <img src="Githubpages/HeadingsMap/task-coach-index.png"
+                             alt="Headings map — tâches coach index"
+                             loading="lazy">
+                    </figure>
+                </li>
+                <li>
+                    <h3 class="content-list__heading">Équipe — index</h3>
+                    <figure class="figure">
+                        <img src="Githubpages/HeadingsMap/team-index.png"
+                             alt="Headings map — équipe index"
+                             loading="lazy">
+                    </figure>
+                </li>
+            </ul>
+        </section>
+
+        <section class="section" aria-labelledby="validation-html">
+            <h2 id="validation-html" class="section__title">Validation du code HTML</h2>
+            <p class="prose">Captures d'écran attestant la validation du code HTML via Total Validator.</p>
+
+            <section class="subsection" aria-labelledby="validator-general">
+                <h3 id="validator-general" class="subsection__title">Pages générales</h3>
+                <ul class="screenshot-grid" role="list">
+                    <li>
+                        <figure class="figure">
+                            <img src="Githubpages/HtmlValidator/welcome.JPG"
+                                 alt="Validation HTML — page d'accueil"
+                                 loading="lazy">
+                            <figcaption class="figure__caption">Welcome</figcaption>
+                        </figure>
+                    </li>
+                    <li>
+                        <figure class="figure">
+                            <img src="Githubpages/HtmlValidator/login.JPG"
+                                 alt="Validation HTML — connexion"
+                                 loading="lazy">
+                            <figcaption class="figure__caption">Login</figcaption>
+                        </figure>
+                    </li>
+                    <li>
+                        <figure class="figure">
+                            <img src="Githubpages/HtmlValidator/register.JPG"
+                                 alt="Validation HTML — inscription"
+                                 loading="lazy">
+                            <figcaption class="figure__caption">Register</figcaption>
+                        </figure>
+                    </li>
+                    <li>
+                        <figure class="figure">
+                            <img src="Githubpages/HtmlValidator/dashboard%20validation.JPG"
+                                 alt="Validation HTML — tableau de bord"
+                                 loading="lazy">
+                            <figcaption class="figure__caption">Dashboard</figcaption>
+                        </figure>
+                    </li>
+                    <li>
+                        <figure class="figure">
+                            <img src="Githubpages/HtmlValidator/chat-index.JPG"
+                                 alt="Validation HTML — chat"
+                                 loading="lazy">
+                            <figcaption class="figure__caption">Chat</figcaption>
+                        </figure>
+                    </li>
+                </ul>
+            </section>
+
+            <section class="subsection" aria-labelledby="validator-roster">
+                <h3 id="validator-roster" class="subsection__title">Roster</h3>
+                <ul class="screenshot-grid" role="list">
+                    <li>
+                        <figure class="figure">
+                            <img src="Githubpages/HtmlValidator/roster/roster-index.JPG"
+                                 alt="Validation HTML — roster index"
+                                 loading="lazy">
+                            <figcaption class="figure__caption">Roster index</figcaption>
+                        </figure>
+                    </li>
+                    <li>
+                        <figure class="figure">
+                            <img src="Githubpages/HtmlValidator/roster/roster-show.JPG"
+                                 alt="Validation HTML — roster show"
+                                 loading="lazy">
+                            <figcaption class="figure__caption">Roster show</figcaption>
+                        </figure>
+                    </li>
+                </ul>
+            </section>
+
+            <section class="subsection" aria-labelledby="validator-scrim">
+                <h3 id="validator-scrim" class="subsection__title">Scrim</h3>
+                <ul class="screenshot-grid" role="list">
+                    <li>
+                        <figure class="figure">
+                            <img src="Githubpages/HtmlValidator/scrim/scrim-index.JPG"
+                                 alt="Validation HTML — scrim index"
+                                 loading="lazy">
+                            <figcaption class="figure__caption">Scrim index</figcaption>
+                        </figure>
+                    </li>
+                    <li>
+                        <figure class="figure">
+                            <img src="Githubpages/HtmlValidator/scrim/scrim-show.JPG"
+                                 alt="Validation HTML — scrim show"
+                                 loading="lazy">
+                            <figcaption class="figure__caption">Scrim show</figcaption>
+                        </figure>
+                    </li>
+                </ul>
+            </section>
+
+            <section class="subsection" aria-labelledby="validator-task">
+                <h3 id="validator-task" class="subsection__title">Task</h3>
+                <ul class="screenshot-grid" role="list">
+                    <li>
+                        <figure class="figure">
+                            <img src="Githubpages/HtmlValidator/task/task-index.JPG"
+                                 alt="Validation HTML — task index"
+                                 loading="lazy">
+                            <figcaption class="figure__caption">Task index</figcaption>
+                        </figure>
+                    </li>
+                    <li>
+                        <figure class="figure">
+                            <img src="Githubpages/HtmlValidator/task/task-show.JPG"
+                                 alt="Validation HTML — task show"
+                                 loading="lazy">
+                            <figcaption class="figure__caption">Task show</figcaption>
+                        </figure>
+                    </li>
+                </ul>
+            </section>
+        </section>
+
+        <section class="section" aria-labelledby="semantique">
+            <h2 id="semantique" class="section__title">Efforts apportés à la sémantique HTML</h2>
+            <ul class="semantic-list" role="list">
+                <li>
+                    <strong>Structure de document valide et localisée</strong> —
+                    Chaque page déclare un &lt;!DOCTYPE html&gt; et l'attribut lang sur l'élément &lt;html&gt;
+                    est aligné sur la locale active de l'application.
+                </li>
+                <li>
+                    <strong>Navigation accessible dès le début de page</strong> —
+                    Un lien « passer au contenu » est présent en haut des pages principales ;
+                    il reste masqué visuellement mais devient visible au focus clavier.
+                </li>
+                <li>
+                    <strong>Balisage sémantique cohérent</strong> —
+                    Le contenu est structuré avec des éléments HTML5 appropriés
+                    (header, nav, main, section, article), plutôt qu'une succession de &lt;div&gt; sans signification.
+                </li>
+                <li>
+                    <strong>Formulaires reliés à leurs libellés et à leurs erreurs</strong> —
+                    Les champs sont associés à un &lt;label&gt; via for et id, et les messages d'erreur utilisent
+                    aria-invalid, aria-describedby et role="alert".
+                </li>
+                <li>
+                    <strong>Images et médias pensés pour l'accessibilité et la performance</strong> —
+                    Les images portent un texte alternatif descriptif, des dimensions explicites quand c'est pertinent,
+                    et le chargement différé ainsi que les variantes responsives sont gérés pour les avatars.
+                </li>
+                <li>
+                    <strong>Listes &lt;ul&gt; correctement structurées</strong> —
+                    Les listes non ordonnées contiennent systématiquement des éléments &lt;li&gt; pour chaque entrée,
+                    et l'attribut role="list" est utilisé lorsque le style CSS modifie leur rendu par défaut,
+                    afin de préserver leur annonce comme liste par les lecteurs d'écran.
+                </li>
+                <li>
+                    <strong>Éléments de sectionnement dotés d'un titre pertinent</strong> —
+                    Chaque &lt;section&gt; (et les zones équivalentes comme &lt;main&gt;) est rattachée à un titre de section
+                    via aria-labelledby ou aria-label, avec un en-tête visible (h2, h3, h4) ou accessible uniquement
+                    aux lecteurs d'écran (sr-only) lorsque le titre n'a pas besoin d'être affiché visuellement.
+                </li>
+            </ul>
+        </section>
+
+        <section class="section" aria-labelledby="microdata">
+            <h2 id="microdata" class="section__title">Microdata</h2>
+            <figure class="figure">
+                <img src="Githubpages/Microdata/microdataPreuve.png"
+                     alt="Rendu des microdata sur une page pertinente de l'application"
+                     loading="lazy">
+                <figcaption class="figure__caption">Exemple de microdata implémentées dans Scrimly.</figcaption>
+            </figure>
+        </section>
+
+        <section class="section" aria-labelledby="gestion-images">
+            <h2 id="gestion-images" class="section__title">Gestion des images</h2>
+            <div class="prose">
+                <p>
+                    <code>ProcessUploadImageAvatar</code> est un job de traitement d'image exécuté en arrière-plan
+                    lorsqu'un utilisateur téléverse un avatar personnalisé (à l'inscription ou depuis son profil).
+                </p>
+                <p>
+                    Il récupère le fichier original déjà enregistré sur le disque de stockage, puis génère automatiquement
+                    plusieurs versions redimensionnées (petite, moyenne et grande) à partir de la configuration du projet.
+                    Chaque variante est compressée puis sauvegardée dans un dossier dédié, ce qui permet d'afficher l'avatar
+                    à la bonne taille selon le contexte (barre de navigation, carte joueur, page profil, etc.)
+                    sans recharger l'image originale à chaque fois.
+                </p>
+            </div>
+            <ul class="content-list" role="list">
+                <li>
+                    <h3 class="content-list__heading">Présentation du job de traitement</h3>
+                    <figure class="figure">
+                        <img src="Githubpages/GestionDesImages/PresentationJob.png"
+                             alt="Présentation du job ProcessUploadImageAvatar"
+                             loading="lazy">
+                    </figure>
+                </li>
+                <li>
+                    <h3 class="content-list__heading">Démonstration du srcset</h3>
+                    <figure class="figure">
+                        <img src="Githubpages/GestionDesImages/DemonstrationDeMonSrcSet.png"
+                             alt="Démonstration de l'utilisation de srcset pour le chargement adaptatif des images"
+                             loading="lazy">
+                    </figure>
+                </li>
+            </ul>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <p>Documentation PFE — Dimitri Spyrou — HEPL Orientation Web — Projet Scrimly</p>
+    </footer>
+</body>
+</html>

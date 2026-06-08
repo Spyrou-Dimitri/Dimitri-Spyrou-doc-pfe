@@ -1,1 +1,78 @@
-Hello
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Documentation PFE — Scrimly | Dimitri Spyrou</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <a class="skip-link" href="#contenu-principal">Passer au contenu</a>
+
+    <header class="site-header">
+        <div class="site-header__inner">
+            <p class="site-header__title">Scrimly — Documentation PFE</p>
+            <nav class="site-nav" aria-label="Navigation principale">
+                <ul class="site-nav__list" role="list">
+                    <li><a class="site-nav__link site-nav__link--active" href="index.html" aria-current="page">Accueil</a></li>
+                    <li><a class="site-nav__link" href="qualite-html.html">Qualité HTML</a></li>
+                    <li><a class="site-nav__link" href="audit-performance.html">Audit performance</a></li>
+                    <li><a class="site-nav__link" href="performances-serveur.html">Performances serveur</a></li>
+                    <li><a class="site-nav__link" href="tests-automatises.html">Tests automatisés</a></li>
+                    <li><a class="site-nav__link" href="audit-opquast.html">Audit Opquast</a></li>
+                    <li><a class="site-nav__link" href="tests-utilisateurs.html">Tests utilisateurs</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main id="contenu-principal" class="site-main">
+        <h1 class="page-title">Documentation technique — Projet de fin d'études</h1>
+        <p class="page-intro">
+            Ce site recense l'ensemble des livrables techniques du projet <strong>Scrimly</strong>,
+            une application web de gestion d'équipe esport développée dans le cadre du PFE
+            Orientation Web à la HEPL.
+        </p>
+
+        <section class="section" aria-labelledby="livrables">
+            <h2 id="livrables" class="section__title">Livrables</h2>
+            <ul class="card-grid" role="list">
+                <li class="card">
+                    <h3 class="card__title">1. Qualité du code HTML</h3>
+                    <p class="card__text">Headings map, validation HTML, sémantique, microdata et gestion des images.</p>
+                    <a class="cta-primary" href="qualite-html.html">Consulter</a>
+                </li>
+                <li class="card">
+                    <h3 class="card__title">2. Audit de performance et d'accessibilité</h3>
+                    <p class="card__text">Rapports Lighthouse et contrôle des contrastes de couleurs.</p>
+                    <a class="cta-primary" href="audit-performance.html">Consulter</a>
+                </li>
+                <li class="card">
+                    <h3 class="card__title">3. Performances côté serveur</h3>
+                    <p class="card__text">Captures Laravel Debugbar illustrant les requêtes et modèles.</p>
+                    <a class="cta-primary" href="performances-serveur.html">Consulter</a>
+                </li>
+                <li class="card">
+                    <h3 class="card__title">4. Tests automatisés</h3>
+                    <p class="card__text">Tests browser et tests feature côté serveur.</p>
+                    <a class="cta-primary" href="tests-automatises.html">Consulter</a>
+                </li>
+                <li class="card">
+                    <h3 class="card__title">5. Audit Opquast</h3>
+                    <p class="card__text">Évaluation du projet selon la checklist Opquast.</p>
+                    <a class="cta-primary" href="audit-opquast.html">Consulter</a>
+                </li>
+                <li class="card">
+                    <h3 class="card__title">6. Tests utilisateurs</h3>
+                    <p class="card__text">Sessions enregistrées et analyse commentée de l'utilisabilité.</p>
+                    <a class="cta-primary" href="tests-utilisateurs.html">Consulter</a>
+                </li>
+            </ul>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <p>Documentation PFE — Dimitri Spyrou — HEPL Orientation Web — Projet Scrimly</p>
+    </footer>
+</body>
+</html>

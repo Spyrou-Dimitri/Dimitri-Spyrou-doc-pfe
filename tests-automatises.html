@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tests automatisés — Documentation PFE Scrimly</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <a class="skip-link" href="#contenu-principal">Passer au contenu</a>
+
+    <header class="site-header">
+        <div class="site-header__inner">
+            <p class="site-header__title">Scrimly — Documentation PFE</p>
+            <nav class="site-nav" aria-label="Navigation principale">
+                <ul class="site-nav__list" role="list">
+                    <li><a class="site-nav__link" href="index.html">Accueil</a></li>
+                    <li><a class="site-nav__link" href="qualite-html.html">Qualité HTML</a></li>
+                    <li><a class="site-nav__link" href="audit-performance.html">Audit performance</a></li>
+                    <li><a class="site-nav__link" href="performances-serveur.html">Performances serveur</a></li>
+                    <li><a class="site-nav__link site-nav__link--active" href="tests-automatises.html" aria-current="page">Tests automatisés</a></li>
+                    <li><a class="site-nav__link" href="audit-opquast.html">Audit Opquast</a></li>
+                    <li><a class="site-nav__link" href="tests-utilisateurs.html">Tests utilisateurs</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main id="contenu-principal" class="site-main">
+        <h1 class="page-title">Tests automatisés</h1>
+        <p class="page-intro">
+            Présentation des tests automatisés significatifs : tests browser (interface)
+            et tests feature (fonctionnalités côté serveur).
+        </p>
+
+        <section class="section" aria-labelledby="tests-browser">
+            <h2 id="tests-browser" class="section__title">Tests browser</h2>
+            <ul class="screenshot-grid" role="list">
+                <li>
+                    <figure class="figure">
+                        <img src="Githubpages/test/Browser/WelcomePageBrowserTest.png"
+                             alt="Test browser — page d'accueil"
+                             loading="lazy">
+                        <figcaption class="figure__caption">WelcomePageBrowserTest</figcaption>
+                    </figure>
+                </li>
+                <li>
+                    <figure class="figure">
+                        <img src="Githubpages/test/Browser/DashbordBrowserTest.png"
+                             alt="Test browser — tableau de bord"
+                             loading="lazy">
+                        <figcaption class="figure__caption">DashbordBrowserTest</figcaption>
+                    </figure>
+                </li>
+                <li>
+                    <figure class="figure">
+                        <img src="Githubpages/test/Browser/CalendarBrowserTest.png"
+                             alt="Test browser — calendrier"
+                             loading="lazy">
+                        <figcaption class="figure__caption">CalendarBrowserTest</figcaption>
+                    </figure>
+                </li>
+                <li>
+                    <figure class="figure">
+                        <img src="Githubpages/test/Browser/TeamPageBrowserTest.png"
+                             alt="Test browser — page équipe"
+                             loading="lazy">
+                        <figcaption class="figure__caption">TeamPageBrowserTest</figcaption>
+                    </figure>
+                </li>
+                <li>
+                    <figure class="figure">
+                        <img src="Githubpages/test/Browser/ScrimPageBrowserTest.png"
+                             alt="Test browser — page scrim"
+                             loading="lazy">
+                        <figcaption class="figure__caption">ScrimPageBrowserTest</figcaption>
+                    </figure>
+                </li>
+                <li>
+                    <figure class="figure">
+                        <img src="Githubpages/test/Browser/taskPageBrowserTest.png"
+                             alt="Test browser — page tâches"
+                             loading="lazy">
+                        <figcaption class="figure__caption">taskPageBrowserTest</figcaption>
+                    </figure>
+                </li>
+                <li>
+                    <figure class="figure">
+                        <img src="Githubpages/test/Browser/RosterIndexBrowserTest.png"
+                             alt="Test browser — roster index"
+                             loading="lazy">
+                        <figcaption class="figure__caption">RosterIndexBrowserTest</figcaption>
+                    </figure>
+                </li>
+                <li>
+                    <figure class="figure">
+                        <img src="Githubpages/test/Browser/RosterShowTabBrowserTest.png"
+                             alt="Test browser — roster show onglet 1"
+                             loading="lazy">
+                        <figcaption class="figure__caption">RosterShowTabBrowserTest</figcaption>
+                    </figure>
+                </li>
+                <li>
+                    <figure class="figure">
+                        <img src="Githubpages/test/Browser/RosterShowTabBrowserTest2.png"
+                             alt="Test browser — roster show onglet 2"
+                             loading="lazy">
+                        <figcaption class="figure__caption">RosterShowTabBrowserTest2</figcaption>
+                    </figure>
+                </li>
+                <li>
+                    <figure class="figure">
+                        <img src="Githubpages/test/Browser/RosterShowTabBrowserTest3.png"
+                             alt="Test browser — roster show onglet 3"
+                             loading="lazy">
+                        <figcaption class="figure__caption">RosterShowTabBrowserTest3</figcaption>
+                    </figure>
+                </li>
+                <li>
+                    <figure class="figure">
+                        <img src="Githubpages/test/Browser/ModalBrowserTest.png"
+                             alt="Test browser — modale 1"
+                             loading="lazy">
+                        <figcaption class="figure__caption">ModalBrowserTest</figcaption>
+                    </figure>
+                </li>
+                <li>
+                    <figure class="figure">
+                        <img src="Githubpages/test/Browser/ModalBrowserTest2.png"
+                             alt="Test browser — modale 2"
+                             loading="lazy">
+                        <figcaption class="figure__caption">ModalBrowserTest2</figcaption>
+                    </figure>
+                </li>
+            </ul>
+        </section>
+
+        <section class="section" aria-labelledby="tests-feature">
+            <h2 id="tests-feature" class="section__title">Tests feature</h2>
+
+            <section class="subsection" aria-labelledby="feat-dashboard">
+                <h3 id="feat-dashboard" class="subsection__title">Dashboard</h3>
+                <ul class="screenshot-grid" role="list">
+                    <li>
+                        <figure class="figure">
+                            <img src="Githubpages/test/Feature/Dashboard/Dashboard.png"
+                                 alt="Test feature — dashboard"
+                                 loading="lazy">
+                        </figure>
+                    </li>
+                </ul>
+            </section>
+
+            <section class="subsection" aria-labelledby="feat-ajout-absence">
+                <h3 id="feat-ajout-absence" class="subsection__title">Ajout absence modal</h3>
+                <ul class="screenshot-grid" role="list">
+                    <li>
+                        <figure class="figure">
+                            <img src="Githubpages/test/Feature/AjoutAbsenceModal/ModalAbsenceTest.png"
+                                 alt="Test feature — modal ajout absence"
+                                 loading="lazy">
+                        </figure>
+                    </li>
+                </ul>
+            </section>
+
+            <section class="subsection" aria-labelledby="feat-edition-absence">
+                <h3 id="feat-edition-absence" class="subsection__title">Édition absence modal</h3>
+                <ul class="screenshot-grid" role="list">
+                    <li>
+                        <figure class="figure">
+                            <img src="Githubpages/test/Feature/Edition%20Absence%20modal/EditionAbsenceModalTest.png"
+                                 alt="Test feature — modal édition absence"
+                                 loading="lazy">
+                        </figure>
+                    </li>
+                </ul>
+            </section>
+
+            <section class="subsection" aria-labelledby="feat-profil">
+                <h3 id="feat-profil" class="subsection__title">Profil show</h3>
+                <ul class="screenshot-grid" role="list">
+                    <li>
+                        <figure class="figure">
+                            <img src="Githubpages/test/Feature/ProfilShow/Capture%20d%E2%80%99%C3%A9cran%202026-06-07%20%C3%A0%2002.56.15.png"
+                                 alt="Test feature — profil show 1"
+                                 loading="lazy">
+                        </figure>
+                    </li>
+                    <li>
+                        <figure class="figure">
+                            <img src="Githubpages/test/Feature/ProfilShow/Capture%20d%E2%80%99%C3%A9cran%202026-06-07%20%C3%A0%2002.56.26.png"
+                                 alt="Test feature — profil show 2"
+                                 loading="lazy">
+                        </figure>
+                    </li>
+                    <li>
+                        <figure class="figure">
+                            <img src="Githubpages/test/Feature/ProfilShow/Capture%20d%E2%80%99%C3%A9cran%202026-06-07%20%C3%A0%2002.57.12.png"
+                                 alt="Test feature — profil show 3"
+                                 loading="lazy">
+                        </figure>
+                    </li>
+                    <li>
+                        <figure class="figure">
+                            <img src="Githubpages/test/Feature/ProfilShow/Capture%20d%E2%80%99%C3%A9cran%202026-06-07%20%C3%A0%2002.57.24.png"
+                                 alt="Test feature — profil show 4"
+                                 loading="lazy">
+                        </figure>
+                    </li>
+                    <li>
+                        <figure class="figure">
+                            <img src="Githubpages/test/Feature/ProfilShow/Capture%20d%E2%80%99%C3%A9cran%202026-06-07%20%C3%A0%2002.57.40.png"
+                                 alt="Test feature — profil show 5"
+                                 loading="lazy">
+                        </figure>
+                    </li>
+                    <li>
+                        <figure class="figure">
+                            <img src="Githubpages/test/Feature/ProfilShow/Capture%20d%E2%80%99%C3%A9cran%202026-06-07%20%C3%A0%2002.57.51.png"
+                                 alt="Test feature — profil show 6"
+                                 loading="lazy">
+                        </figure>
+                    </li>
+                    <li>
+                        <figure class="figure">
+                            <img src="Githubpages/test/Feature/ProfilShow/Capture%20d%E2%80%99%C3%A9cran%202026-06-07%20%C3%A0%2002.57.57.png"
+                                 alt="Test feature — profil show 7"
+                                 loading="lazy">
+                        </figure>
+                    </li>
+                </ul>
+            </section>
+
+            <section class="subsection" aria-labelledby="feat-scrim-request">
+                <h3 id="feat-scrim-request" class="subsection__title">Show scrim request</h3>
+                <ul class="screenshot-grid" role="list">
+                    <li>
+                        <figure class="figure">
+                            <img src="Githubpages/test/Feature/ShowScrimRequest/Capture%20d%E2%80%99%C3%A9cran%202026-06-07%20%C3%A0%2002.59.23.png"
+                                 alt="Test feature — show scrim request 1"
+                                 loading="lazy">
+                        </figure>
+                    </li>
+                    <li>
+                        <figure class="figure">
+                            <img src="Githubpages/test/Feature/ShowScrimRequest/Capture%20d%E2%80%99%C3%A9cran%202026-06-07%20%C3%A0%2002.59.54.png"
+                                 alt="Test feature — show scrim request 2"
+                                 loading="lazy">
+                        </figure>
+                    </li>
+                </ul>
+            </section>
+
+            <section class="subsection" aria-labelledby="feat-task-create">
+                <h3 id="feat-task-create" class="subsection__title">Task create page</h3>
+                <ul class="screenshot-grid" role="list">
+                    <li>
+                        <figure class="figure">
+                            <img src="Githubpages/test/Feature/TaskCreatePage/Capture%20d%E2%80%99%C3%A9cran%202026-06-07%20%C3%A0%2003.00.48.png"
+                                 alt="Test feature — task create 1"
+                                 loading="lazy">
+                        </figure>
+                    </li>
+                    <li>
+                        <figure class="figure">
+                            <img src="Githubpages/test/Feature/TaskCreatePage/Capture%20d%E2%80%99%C3%A9cran%202026-06-07%20%C3%A0%2003.01.05.png"
+                                 alt="Test feature — task create 2"
+                                 loading="lazy">
+                        </figure>
+                    </li>
+                    <li>
+                        <figure class="figure">
+                            <img src="Githubpages/test/Feature/TaskCreatePage/Capture%20d%E2%80%99%C3%A9cran%202026-06-07%20%C3%A0%2003.01.26.png"
+                                 alt="Test feature — task create 3"
+                                 loading="lazy">
+                        </figure>
+                    </li>
+                    <li>
+                        <figure class="figure">
+                            <img src="Githubpages/test/Feature/TaskCreatePage/Capture%20d%E2%80%99%C3%A9cran%202026-06-07%20%C3%A0%2003.01.36.png"
+                                 alt="Test feature — task create 4"
+                                 loading="lazy">
+                        </figure>
+                    </li>
+                </ul>
+            </section>
+
+            <section class="subsection" aria-labelledby="feat-task-edit">
+                <h3 id="feat-task-edit" class="subsection__title">Task edit page</h3>
+                <ul class="screenshot-grid" role="list">
+                    <li>
+                        <figure class="figure">
+                            <img src="Githubpages/test/Feature/TaskEditPage/Capture%20d%E2%80%99%C3%A9cran%202026-06-07%20%C3%A0%2003.02.54.png"
+                                 alt="Test feature — task edit"
+                                 loading="lazy">
+                        </figure>
+                    </li>
+                </ul>
+            </section>
+
+            <section class="subsection" aria-labelledby="feat-team-role">
+                <h3 id="feat-team-role" class="subsection__title">Team member role modal</h3>
+                <ul class="screenshot-grid" role="list">
+                    <li>
+                        <figure class="figure">
+                            <img src="Githubpages/test/Feature/TeamMemberROleModal/Capture%20d%E2%80%99%C3%A9cran%202026-06-07%20%C3%A0%2003.04.40.png"
+                                 alt="Test feature — team member role modal 1"
+                                 loading="lazy">
+                        </figure>
+                    </li>
+                    <li>
+                        <figure class="figure">
+                            <img src="Githubpages/test/Feature/TeamMemberROleModal/Capture%20d%E2%80%99%C3%A9cran%202026-06-07%20%C3%A0%2003.05.01.png"
+                                 alt="Test feature — team member role modal 2"
+                                 loading="lazy">
+                        </figure>
+                    </li>
+                    <li>
+                        <figure class="figure">
+                            <img src="Githubpages/test/Feature/TeamMemberROleModal/Capture%20d%E2%80%99%C3%A9cran%202026-06-07%20%C3%A0%2003.05.18.png"
+                                 alt="Test feature — team member role modal 3"
+                                 loading="lazy">
+                        </figure>
+                    </li>
+                </ul>
+            </section>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <p>Documentation PFE — Dimitri Spyrou — HEPL Orientation Web — Projet Scrimly</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Performances côté serveur — Documentation PFE Scrimly</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <a class="skip-link" href="#contenu-principal">Passer au contenu</a>
+
+    <header class="site-header">
+        <div class="site-header__inner">
+            <p class="site-header__title">Scrimly — Documentation PFE</p>
+            <nav class="site-nav" aria-label="Navigation principale">
+                <ul class="site-nav__list" role="list">
+                    <li><a class="site-nav__link" href="index.html">Accueil</a></li>
+                    <li><a class="site-nav__link" href="qualite-html.html">Qualité HTML</a></li>
+                    <li><a class="site-nav__link" href="audit-performance.html">Audit performance</a></li>
+                    <li><a class="site-nav__link site-nav__link--active" href="performances-serveur.html" aria-current="page">Performances serveur</a></li>
+                    <li><a class="site-nav__link" href="tests-automatises.html">Tests automatisés</a></li>
+                    <li><a class="site-nav__link" href="audit-opquast.html">Audit Opquast</a></li>
+                    <li><a class="site-nav__link" href="tests-utilisateurs.html">Tests utilisateurs</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main id="contenu-principal" class="site-main">
+        <h1 class="page-title">Performances côté serveur</h1>
+        <p class="page-intro">
+            Aperçu des performances côté serveur illustré par des captures Laravel Debugbar
+            (requêtes SQL et modèles chargés).
+        </p>
+
+        <section class="section" aria-labelledby="perf-serveur">
+            <h2 id="perf-serveur" class="sr-only">Captures Laravel Debugbar</h2>
+
+            <section class="subsection" aria-labelledby="dashboard">
+                <h3 id="dashboard" class="subsection__title">Dashboard</h3>
+                <ul class="screenshot-grid" role="list">
+                    <li>
+                        <figure class="figure">
+                            <img src="Githubpages/ScreenshotLaravelDebugToolbar/Dashboard/ModelDashboard.png"
+                                 alt="Laravel Debugbar — modèles chargés sur le dashboard"
+                                 loading="lazy">
+                            <figcaption class="figure__caption">Modèles — Dashboard</figcaption>
+                        </figure>
+                    </li>
+                    <li>
+                        <figure class="figure">
+                            <img src="Githubpages/ScreenshotLaravelDebugToolbar/Dashboard/QuerryDashboard.png"
+                                 alt="Laravel Debugbar — requêtes SQL sur le dashboard"
+                                 loading="lazy">
+                            <figcaption class="figure__caption">Requêtes — Dashboard</figcaption>
+                        </figure>
+                    </li>
+                </ul>
+            </section>
+
+            <section class="subsection" aria-labelledby="roster">
+                <h3 id="roster" class="subsection__title">Roster</h3>
+                <ul class="screenshot-grid" role="list">
+                    <li>
+                        <figure class="figure">
+                            <img src="Githubpages/ScreenshotLaravelDebugToolbar/Roster/ModelRoster.png"
+                                 alt="Laravel Debugbar — modèles chargés sur la page roster"
+                                 loading="lazy">
+                            <figcaption class="figure__caption">Modèles — Roster</figcaption>
+                        </figure>
+                    </li>
+                    <li>
+                        <figure class="figure">
+                            <img src="Githubpages/ScreenshotLaravelDebugToolbar/Roster/QuerryRoster.png"
+                                 alt="Laravel Debugbar — requêtes SQL sur la page roster"
+                                 loading="lazy">
+                            <figcaption class="figure__caption">Requêtes — Roster</figcaption>
+                        </figure>
+                    </li>
+                </ul>
+            </section>
+
+            <section class="subsection" aria-labelledby="scrim">
+                <h3 id="scrim" class="subsection__title">Scrim</h3>
+                <ul class="screenshot-grid" role="list">
+                    <li>
+                        <figure class="figure">
+                            <img src="Githubpages/ScreenshotLaravelDebugToolbar/Scrim/ModelScrim.png"
+                                 alt="Laravel Debugbar — modèles chargés sur la page scrim"
+                                 loading="lazy">
+                            <figcaption class="figure__caption">Modèles — Scrim</figcaption>
+                        </figure>
+                    </li>
+                    <li>
+                        <figure class="figure">
+                            <img src="Githubpages/ScreenshotLaravelDebugToolbar/Scrim/QuerryScrim.png"
+                                 alt="Laravel Debugbar — requêtes SQL sur la page scrim"
+                                 loading="lazy">
+                            <figcaption class="figure__caption">Requêtes — Scrim</figcaption>
+                        </figure>
+                    </li>
+                </ul>
+            </section>
+
+            <section class="subsection" aria-labelledby="task">
+                <h3 id="task" class="subsection__title">Task</h3>
+                <ul class="screenshot-grid" role="list">
+                    <li>
+                        <figure class="figure">
+                            <img src="Githubpages/ScreenshotLaravelDebugToolbar/Task/ModelTask.png"
+                                 alt="Laravel Debugbar — modèles chargés sur la page task"
+                                 loading="lazy">
+                            <figcaption class="figure__caption">Modèles — Task</figcaption>
+                        </figure>
+                    </li>
+                    <li>
+                        <figure class="figure">
+                            <img src="Githubpages/ScreenshotLaravelDebugToolbar/Task/QuerryTask.png"
+                                 alt="Laravel Debugbar — requêtes SQL sur la page task"
+                                 loading="lazy">
+                            <figcaption class="figure__caption">Requêtes — Task</figcaption>
+                        </figure>
+                    </li>
+                </ul>
+            </section>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <p>Documentation PFE — Dimitri Spyrou — HEPL Orientation Web — Projet Scrimly</p>
+    </footer>
+</body>
+</html>

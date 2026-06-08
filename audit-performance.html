@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audit performance et accessibilité — Documentation PFE Scrimly</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <a class="skip-link" href="#contenu-principal">Passer au contenu</a>
+
+    <header class="site-header">
+        <div class="site-header__inner">
+            <p class="site-header__title">Scrimly — Documentation PFE</p>
+            <nav class="site-nav" aria-label="Navigation principale">
+                <ul class="site-nav__list" role="list">
+                    <li><a class="site-nav__link" href="index.html">Accueil</a></li>
+                    <li><a class="site-nav__link" href="qualite-html.html">Qualité HTML</a></li>
+                    <li><a class="site-nav__link site-nav__link--active" href="audit-performance.html" aria-current="page">Audit performance</a></li>
+                    <li><a class="site-nav__link" href="performances-serveur.html">Performances serveur</a></li>
+                    <li><a class="site-nav__link" href="tests-automatises.html">Tests automatisés</a></li>
+                    <li><a class="site-nav__link" href="audit-opquast.html">Audit Opquast</a></li>
+                    <li><a class="site-nav__link" href="tests-utilisateurs.html">Tests utilisateurs</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main id="contenu-principal" class="site-main">
+        <h1 class="page-title">Audit de performance et d'accessibilité</h1>
+        <p class="page-intro">
+            Rapports Lighthouse et contrôle des contrastes de couleurs réalisés sur l'application Scrimly.
+        </p>
+
+        <section class="section" aria-labelledby="lighthouse">
+            <h2 id="lighthouse" class="section__title">Rapport Lighthouse</h2>
+            <figure class="figure">
+                <img src="Githubpages/auditLighthouse/Capture%20d%E2%80%99%C3%A9cran%202026-06-06%20%C3%A0%2004.17.11.png"
+                     alt="Rapport Lighthouse — performance, accessibilité, bonnes pratiques et SEO"
+                     loading="lazy">
+                <figcaption class="figure__caption">Audit Lighthouse complet de l'application Scrimly.</figcaption>
+            </figure>
+        </section>
+
+        <section class="section" aria-labelledby="contrastes">
+            <h2 id="contrastes" class="section__title">Contrôle des contrastes de couleurs</h2>
+            <ul class="screenshot-grid" role="list">
+                <li>
+                    <figure class="figure">
+                        <img src="Githubpages/contrastfinder/Capture%20d%E2%80%99%C3%A9cran%202026-06-06%20%C3%A0%2001.28.33.png"
+                             alt="Contrôle de contraste — rapport 1"
+                             loading="lazy">
+                    </figure>
+                </li>
+                <li>
+                    <figure class="figure">
+                        <img src="Githubpages/contrastfinder/Capture%20d%E2%80%99%C3%A9cran%202026-06-06%20%C3%A0%2001.29.16.png"
+                             alt="Contrôle de contraste — rapport 2"
+                             loading="lazy">
+                    </figure>
+                </li>
+                <li>
+                    <figure class="figure">
+                        <img src="Githubpages/contrastfinder/Capture%20d%E2%80%99%C3%A9cran%202026-06-06%20%C3%A0%2001.29.30.png"
+                             alt="Contrôle de contraste — rapport 3"
+                             loading="lazy">
+                    </figure>
+                </li>
+                <li>
+                    <figure class="figure">
+                        <img src="Githubpages/contrastfinder/Capture%20d%E2%80%99%C3%A9cran%202026-06-06%20%C3%A0%2001.35.41.png"
+                             alt="Contrôle de contraste — rapport 4"
+                             loading="lazy">
+                    </figure>
+                </li>
+                <li>
+                    <figure class="figure">
+                        <img src="Githubpages/contrastfinder/Capture%20d%E2%80%99%C3%A9cran%202026-06-06%20%C3%A0%2001.35.49.png"
+                             alt="Contrôle de contraste — rapport 5"
+                             loading="lazy">
+                    </figure>
+                </li>
+                <li>
+                    <figure class="figure">
+                        <img src="Githubpages/contrastfinder/Capture%20d%E2%80%99%C3%A9cran%202026-06-06%20%C3%A0%2001.36.06.png"
+                             alt="Contrôle de contraste — rapport 6"
+                             loading="lazy">
+                    </figure>
+                </li>
+            </ul>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <p>Documentation PFE — Dimitri Spyrou — HEPL Orientation Web — Projet Scrimly</p>
+    </footer>
+</body>
+</html>
