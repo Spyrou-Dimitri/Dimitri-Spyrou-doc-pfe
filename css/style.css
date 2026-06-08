@@ -372,6 +372,48 @@ a:focus-visible {
     margin-top: 1rem;
 }
 
+/* Video links (tests utilisateurs) */
+.video-links {
+    list-style: none;
+    margin: 1.5rem 0 0;
+    padding: 0;
+}
+
+.video-links__group {
+    margin-bottom: 1.5rem;
+    background-color: var(--color-bg-widget);
+    box-shadow: var(--shadow-basic);
+    padding: 1.25rem;
+}
+
+.video-links__group:last-child {
+    margin-bottom: 0;
+}
+
+.video-links__title {
+    margin: 0 0 0.75rem;
+    font-size: 1.125rem;
+    color: var(--color-gold-light);
+}
+
+.video-links__group > ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.video-links__group > ul > li {
+    margin-bottom: 0.5rem;
+}
+
+.video-links__group > ul > li:last-child {
+    margin-bottom: 0;
+}
+
+.video-links__group a {
+    font-weight: 700;
+}
+
 /* Video embed */
 .video-embed {
     position: relative;
