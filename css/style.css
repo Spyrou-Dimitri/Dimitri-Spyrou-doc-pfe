@@ -170,7 +170,7 @@ a:focus-visible {
 .section__title {
     margin: 0 0 1.25rem;
     font-size: 1.5rem;
-    color: var(--color-gold);
+    color: var(--color-text-primary);
     border-bottom: 1px solid var(--color-bg-card);
     padding-bottom: 0.5rem;
 }
@@ -297,6 +297,25 @@ a:focus-visible {
     background-color: var(--color-bg-widget);
     box-shadow: var(--shadow-basic);
     padding: 0.75rem;
+}
+
+.screenshot-stack {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing);
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.screenshot-stack > li {
+    background-color: var(--color-bg-widget);
+    box-shadow: var(--shadow-basic);
+    padding: 0.75rem;
+}
+
+.screenshot-stack .figure img {
+    width: 100%;
 }
 
 /* Semantic list (guideline) */
