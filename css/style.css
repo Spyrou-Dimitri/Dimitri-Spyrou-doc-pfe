@@ -280,11 +280,17 @@ a:focus-visible {
 
 .screenshot-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(16rem, 1fr));
-    gap: 1rem;
+    grid-template-columns: repeat(2, 1fr);
+    gap: var(--spacing);
     list-style: none;
     margin: 0;
     padding: 0;
+}
+
+@media (max-width: 40rem) {
+    .screenshot-grid {
+        grid-template-columns: 1fr;
+    }
 }
 
 .screenshot-grid > li {
